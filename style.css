@@ -1,0 +1,143 @@
+*
+{
+	  font-family:serif; letter-spacing:3px;
+	  background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+       }
+.logo{
+	color: #778899;
+	font-size: 20px;
+	text-align: justify;
+	float: left;
+	padding:  14px;
+
+}
+header {
+  background-color: papayawhip;
+  overflow: auto;
+  white-space: nowrap;
+}
+header a {
+  display: inline-block;
+  color: #778899;
+  text-align: center;
+  padding: 15px;
+  margin-top: 5px;
+  text-decoration: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+li{
+		display: inline;
+		float: right;
+
+}
+
+header a:hover {
+  background-color: ghostwhite;
+}
+  .container {
+  position: relative;
+  text-align: center;
+  color: coral;
+}
+ .container {
+  position: relative;
+  text-align: center;
+  color: whitesmoke;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container .btn {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+  background-color: papayawhip;
+  color: #778899;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn:hover {
+  background-color: black;
+}
+h2{
+  color: #778899;
+}
+h3{
+	color: #778899;
+	margin-top: 10px;
+	text-align: center;
+}
+.box{
+  position: relative;
+  transform: translate(-50%,-50%)
+  width: 400px;
+  padding: 30px;
+  box-sizing: border-box;
+  background:   #778899;
+  color: papayawhip  ;
+  background-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  display: flex;
+  transition: 5s;
+  text-align: center;
+  }
+.box: hover{
+  box-shadow:0px 15px 30px rgba(0,0,0,.5);
+}
+.box .img{
+  width: 150px;
+  flex: 0.0.150px;
+  float: left;
+}
+
+.box .img img{
+  max-width: 100%;
+  }
+.box .content{
+  padding-left: 20px;
+  }
+.box .content p{
+  margin-top: 50%;
+  margin-bottom: 50%;
+  padding-left: 10px 0 0;
+  text-alignment: justify;
+  
+}
+.footer{
+	padding: 100px;
+	background-color: papayawhip;
+	color: #778899;
+}
+
+.footer p{
+	font-size: 30px;
+	text-align: justify;
+	padding-right: 35px;
+}
+
+.footer .row .fa{
+   padding-right: 20px;
+}
+.footer hr{
+	margin-top: 10px;
+	background: #efefef;
+}
+.class{
+	text-align: justify;
+}
